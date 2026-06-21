@@ -187,7 +187,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Eastern and central areas show high topographical wetness index in red indicating high moisture accumulation and poor drainage, while western areas and scattered blue spots show low TWI indicating drier, well-drained terrain.';
+                this._div.innerHTML = 'Blue areas have high Topographical Wetness Index meaning flat, convergent terrain that collects water and stays saturated, while red areas have low TWI meaning steep, divergent slopes that shed water quickly and stay dry.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
